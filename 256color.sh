@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # 4bit color
-for i in {0..15}; do
+for i in {0..15}
+do
 	printf "\033[48;5;%sm%-9s" $i $i
 done
 echo -e "\033[0m"
