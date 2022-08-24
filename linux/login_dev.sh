@@ -1,7 +1,7 @@
 set user root
 set host 192.168.7.253
 set port 22
-set password iPae5ohk[o}z7Sah
+set password youpassword
 
 
 spawn ssh -o StrictHostKeyChecking=no $user@$host -p $port
